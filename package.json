@@ -1,6 +1,11 @@
 {
-  "name": "test-custom-elements",
+  "name": "back-to-the-feature",
   "version": "1.0.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nerdery-bernoulli/back-to-the-feature"
+  },
   "jspm": {
     "directories": {
       "baseURL": "src",
@@ -13,5 +18,9 @@
       "observed": "npm:observed@^1.1.1",
       "rivets": "npm:rivets@^0.8.0"
     }
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "myth": "^1.3.0"
   }
 }
