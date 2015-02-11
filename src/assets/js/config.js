@@ -1,12 +1,12 @@
 System.config({
+  "transpiler": "6to5",
   "paths": {
     "*": "*.js",
     "app/*": "assets/*.js",
     "github:*": "assets/vendor/github/*.js",
     "npm:*": "assets/vendor/npm/*.js",
     "test-custom-elements/*": "assets/*.js"
-  },
-  "transpiler": "6to5"
+  }
 });
 
 System.config({

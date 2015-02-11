@@ -6,5 +6,5 @@
  * @extends HTMLElement
  */
 export default document.registerElement('app-element', {
-	prototype: Object.create(HTMLElement.prototype)
+    prototype: Object.create(HTMLElement.prototype)
 });
