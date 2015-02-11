@@ -1,0 +1,21 @@
+*, *:after, *:before {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font: 13px/1.6 sans-serif;
+}
+
+body {
+	color: hsl(0, 0%, 20%);
+}
+
+button {
+	padding: 0.25em 0.5em;
+}
+
+ol, ul {
+	list-style: none;
+}

@@ -1,0 +1,17 @@
+{
+  "name": "test-custom-elements",
+  "version": "1.0.0",
+  "jspm": {
+    "directories": {
+      "baseURL": "src",
+      "lib": "src/assets",
+      "packages": "src/assets/vendor"
+    },
+    "configFile": "src/assets/js/config.js",
+    "dependencies": {
+      "document-register-element": "npm:document-register-element@^0.1.6",
+      "observed": "npm:observed@^1.1.1",
+      "rivets": "npm:rivets@^0.8.0"
+    }
+  }
+}

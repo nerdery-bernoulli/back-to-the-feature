@@ -1,0 +1,9 @@
+
+coverage/
+docs/
+node_modules/
+src/assets/vendor/
+
+*.log
+.*.swp
+
