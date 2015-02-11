@@ -2,35 +2,35 @@
 <html>
 <head>
 
-	<meta charset="utf-8" />
-	<title>Custom Elements</title>
-	<link rel="stylesheet" href="assets/css/bootstrap.css" />
+    <meta charset="utf-8" />
+    <title>Custom Elements</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css" />
 
 </head>
 <body>
 
-	<app-root>
-		<form rv-on-submit="add">
-			<input name="foo" rv-value="fooValue" />
+    <app-root>
+        <form rv-on-submit="add">
+            <input name="foo" rv-value="fooValue" />
 
-			<button type="submit">Add</button>
-			<button rv-on-click="sort">Sort</button>
-			<button rv-on-click="rsort">Sort (reverse)</button>
-		</form>
+            <button type="submit">Add</button>
+            <button rv-on-click="sort">Sort</button>
+            <button rv-on-click="rsort">Sort (reverse)</button>
+        </form>
 
-		<ul>
-			<li rv-each-item="items">${ item.foo }</li>
-		</ul>
-	</app-root>
+        <ul>
+            <li rv-each-item="items">${ item.foo }</li>
+        </ul>
+    </app-root>
 
-	<!-- Polyfills -->
-	<script src="assets/vendor/6to5.js"></script>
-	<script src="assets/vendor/es6-module-loader.js"></script>
-	<script src="assets/vendor/system.js"></script>
+    <!-- Polyfills -->
+    <script src="assets/vendor/6to5.js"></script>
+    <script src="assets/vendor/es6-module-loader.js"></script>
+    <script src="assets/vendor/system.js"></script>
 
-	<!-- App -->
-	<script src="assets/js/config.js"></script>
-	<script>System.import('assets/js/bootstrap');</script>
+    <!-- App -->
+    <script src="assets/js/config.js"></script>
+    <script>System.import('assets/js/bootstrap');</script>
 
 </body>
 </html>
