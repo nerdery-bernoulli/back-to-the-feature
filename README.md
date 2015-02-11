@@ -6,4 +6,4 @@ Installation:
     jspm install
     serve src
 
-http://localhost:3000
+[http://localhost:3000](http://localhost:3000)
